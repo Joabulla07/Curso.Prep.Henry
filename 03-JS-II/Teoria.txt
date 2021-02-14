@@ -1,0 +1,5 @@
+For: es un bloque de codigo que se ejecuta cierta cantidad de veces.
+Es un bucle en el cual definimos la cantidad de veces que se repita, por medio
+de una sentencia. Mientras las sentencia sea verdadera se repetira.
+operadores logicos: && = and las dos tienen que ser verdaderas; ||= or, una de ambas condiciones 
+debe ser verdadera; ! = Not negacion de la conidicon

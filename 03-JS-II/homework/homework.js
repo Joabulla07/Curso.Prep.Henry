@@ -1,6 +1,7 @@
 // No cambies los nombres de las funciones.
 
 function obtenerMayor(x, y) {
+<<<<<<< HEAD
   // "x" e "y" son números enteros (int).
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
@@ -60,6 +61,72 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+=======
+  if(x > y){
+    return x;
+  }
+  else if(y > x){
+    return y;
+  }
+  return x;
+}
+
+function mayoriaDeEdad(edad) {
+  if(edad >= 18){
+    return 'Allowed';
+  }
+  return 'Not allowed';
+}
+  
+function conection(status) {
+  if(status === 1){
+    return 'Online';
+  }
+  else if(status === 2){
+    return 'Away';
+  }
+  return 'Offline';
+}
+
+function saludo(idioma) {
+  switch(idioma){
+    case 'aleman': return 'Guten Tag!';break;
+    case 'mandarin': return 'Ni Hao!';break;
+    case 'ingles': return 'Hello!';break;
+    default: return 'Hola!';break;
+  }
+}
+
+function colors(color) {
+  switch(color){
+    case 'blue': return 'This is blue';break;
+    case 'red': return 'This is red';break;
+    case 'green': return 'This is green';break;
+    case 'orange': return 'This is orange';break;
+    default: return 'Color not found';break;
+  }
+}
+
+function esDiezOCinco(numero) {
+  if((numero === 10) || (numero === 5)){
+    return true;
+  }
+  return false;
+}
+
+function estaEnRango(numero) {
+  if(numero < 50 && numero > 20){
+    return true;
+  }
+  return false;
+}
+
+function esEntero(numero) {
+  if(numero === Math.floor(numero)){
+    return true;
+  }
+  return false;
+>>>>>>> a73cf50 (tarea)
 }
 
 function fizzBuzz(numero) {

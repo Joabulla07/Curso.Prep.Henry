@@ -1,0 +1,9 @@
+variable: Es un tipo de dato que puede ser modificado.
+String: son cadenas de texto. Ej: Hola
+Funciones: Las funciones son bloques de codigo que hacen algo. El return devuelve
+lo que necesitamos de esa funcion- Los argumentos son los que le pasamos, por ejemplo
+variables o numeros, para que nuestra funcion haga alo con esos datos.
+IF: La declaracion if lo que hace es dependiendo el valor de verdad de la sentencia, 
+hace una cosa u hace otra.
+valores booleanos: con estos valores logicos universales podremos saber si
+una condicion o algo que necesitemos saber del mismo programa es verdadero o falso.
