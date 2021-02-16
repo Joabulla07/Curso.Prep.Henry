@@ -1,0 +1,7 @@
+Objetos: Es un contenedor de informacion donde se guarda mucha informacion sobre una sola cosa en particular.
+Propiedades: controlan tanto la informacion del objeto como el comportamiento del mismo.
+Metodos: son funciones que se encuentran dentro del objeto.
+Bucle for..in : Se utiliza para iterar la entre las claves del objeto y asi poder obtener el contenido.
+Notacion de puntos vs notacion corchetes: son maneras de acceder a una clave en particular de un objeto.
+la de punto se tiene que poner el nombre del pbjeto, un punto, y la clave; La de corchetes usa una cadena 
+o numero, o una variable que apunte a una cadena o numero, se debe envolver en comillas para llamar a una clave.
