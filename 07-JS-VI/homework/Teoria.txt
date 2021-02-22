@@ -1,0 +1,1 @@
+callback: capacidad de una funcion de llamar a otras funciones.
