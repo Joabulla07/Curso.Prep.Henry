@@ -1,0 +1,2 @@
+prototype: establece un metodo para que los objetos de esa clase puedan accederlo.
+clase: es una plantilla para la creacion de objetos.
