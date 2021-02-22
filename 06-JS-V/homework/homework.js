@@ -30,17 +30,6 @@ function agregarStringInvertida() {
   }
 }
 
-// ---------------------------------------------------------------------------//
-  //Crea el constructor de la clase "Persona"
-  //Debe tener las propiedades: "nombre", "apellido", "edad" y "domicilio"
-  //Debe tener un método llamado "detalle" que nos devuelve un objeto con las propiedades de la persona y sus valores.
-  //Ej: { 
-    //   Nombre: 'Juan',
-    //   Apellido: 'Perez',
-    //   Edad: 22,
-    //   Domicilio: 'Saavedra 123'
-    //  }
-
   class Persona {
     constructor(nombre, apellido, edad, domicilio) {
       this.nombre = nombre;
@@ -59,16 +48,14 @@ function agregarStringInvertida() {
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
-  let persona1 = new Persona('Juan', 'Perez', 22, 'Saavedra 123');
-  return persona1;
+  const persona = new Persona('Juan', 'Perez', 22, 'Saavedra 123');
+  return persona;
 }
   
 function agregarMetodo() {
-  Persona.prototype.datos = function(nombre, edad){
-    return this.nombre +', '+ this.edad + ' años';
+  Persona.prototype.datos = function(){
+    return this.nombre + ", " + this.edad + " años";
   }
-  //La función agrega un método "datos" a la clase Persona que toma el nombre y la edad de la persona y devuelve: 
-  //Ej: "Juan, 22 años"
 }
   
 
