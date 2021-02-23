@@ -1,0 +1,10 @@
+html{
+    background-image: url("wallpaperbetter.com_1366x768.jpg");
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+}
